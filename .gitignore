@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+.vscode
+package-lock.json
+public/
+node_modules/
+coverage/
+.eslintric.json

@@ -1,0 +1,13 @@
+{
+  "mongodb": "mongodb+srv://dbUser:dbPassword@myapp.ojxfu.mongodb.net/MyApp?retryWrites=true&w=majority",
+  "port": 3000,
+  "environments" : {
+    "test": {
+      "mongodb": "mongodb+srv://dbUser:dbPassword@myapp.ojxfu.mongodb.net/MyApp?retryWrites=true&w=majority",
+      "port": 3001
+    },
+    "travis": {
+      "mongodb": "mongodb+srv://dbUser:dbPassword@myapp.ojxfu.mongodb.net/MyApp?retryWrites=true&w=majority"
+    }
+  }
+}
